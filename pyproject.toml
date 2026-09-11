@@ -1,0 +1,19 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "stanzaapi-vat-validator"
+version = "1.0.0"
+description = "Official zero-dependency, high-speed Python client for EU & UK VAT Validator & Rate Engine"
+readme = "README.md"
+requires-python = ">=3.8"
+license = "MIT"
+keywords = ["vat","vies","eu-vat","uk-vat","tax-rate","moss-oss","invoicing","cross-border-tax","vat-number"]
+authors = [
+  { name = "Stanza" },
+]
+
+[project.urls]
+Homepage = "https://stanzaapi.com/tools/vat-validator"
+Repository = "https://github.com/StanzaAPI/vat-validator-python"
